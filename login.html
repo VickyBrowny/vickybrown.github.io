@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>php</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery.js" /></script>
+	<script type="text/javascript" src="js/bootstrap.js" /></script>
+	</head>
+	<script> alert('Thank you for registering, Login here with your Username & Password');</script>;
+
+	<body>		
+
+<div class="container">
+	<div class="row">
+<div class="col-lg-10">
+<div class="text-center">
+<img src="images/IMG_2070.JPG">
+	<header>
+	<h1>Sign In</h1>
+	</header>
+</div>
+
+<form action="log.php" method="post">
+<div class="form-group"> 
+	<label for="Username">UserName:</label>
+	<input type="text" name="Username" class="form-control" placeholder="Enter Username" required="Required Field">
+</div>
+<br>
+
+<div class="form-group"> 
+	<label for="Password">Password:</label>
+	<input type="password" name="Password" class="form-control" placeholder="Enter a Password" required="Required Field">
+</div>
+<br>
+
+<div class="form-group">
+<button type="submit" name="Login" value="Login" class="btn btn-success">Login</button> 
+</div>
+<a href="register.html" class="btn btn-primary">Sign Up?</a>
+
+</div>
+</form>
+</div>
+</body>
+</html>
