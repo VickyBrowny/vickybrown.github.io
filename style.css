@@ -1,16 +1,45 @@
-body{
-	background: linear-gradient(to right, blue ,
-	 green); 
-	color: rgba(0,0,0,0.5);
-	font-family: 'Montserrat', sans-serif;
-}
+body{background-color: rgba(0,250,0,0.2)}
+.topimage{margin-top: -8px;margin-left: -8px; width: 1300px}
+.list{background-color:black;padding:20px;text-align:center;width: 1250px;height:20px;top:10px;left: 0px;margin-left: -8px}
+.list a{text-decoration:none;color:white;font-weight:bold;margin:30px}
+.logo img{height:60px;width:45px;margin-left:60px;margin-top: -60px;}
+.list2{margin-top: -10px}
+.list2 span{color: red}
+.champions{width: 470px; margin-left:15px}
+.champions h1{margin-left: 15px;color: black}
+.champions h4{margin-top: 10px; width: 450px}
+.champions hr{width: 450px}
+.snow{width: 450px; margin-left:15px;margin-top: 30px}
+.snow hr{width: 450px}
+.snow p{margin-left: 127px;margin-top: -100px;width: 800px}
+.holes{margin-top: 80px; margin-left:15px}
+.holes p{margin-left: 127px;margin-top: -100px}
+.limbaugh{margin-top: -690px; margin-left:540px;width: 600px;height: 700px}
+.limbaugh ul{margin-left:-25px}
+.prince{margin-top: -700px; margin-left:930px;width: 300px;height: 650px}
+.saudi{margin-top: -300px; margin-left:540px;width: 600px;height: 800px}
+.saudi ul{margin-left:-25px}
+.news{background-color:lavender;padding:10px;width: 420px;height:15px;margin-top: -400px}
+.news h3{font-weight:bold;margin-top: -5px}
+.news p{margin-left: 400px;margin-top: -50px}
+.news h5{font-size: 16px}
+.pandeamic{background-color:lavender;padding:10px;width: 450px;height:15px;margin-top: -35px;margin-left: 450px}
+.pandeamic h3{font-weight:bold;margin-top: -5px}
+.impact{background-color:lavender;padding:10px;width: 295px;height:15px;margin-top: 158px;margin-left: 930px}
+.impact h3{font-weight:bold;margin-top: -5px}
+.foot{background-color:black;color:white;margin-top:480px;padding:1px; width:1280px;margin-left: -8px;}
+.footer h4{margin-left:10px}
+.footer h5{margin-left:1095px;margin-top:-40}
 
-img {
-	width: 250px; height: 200px;
+@media only screen and (max-width: 600px){
+
+	body{
+		background-color: red}
+	.list{
+		width: 600px}
+		.logo img{margin-left: 0px}
 }
-h1 {
-	font-weight: 700;
-	font-style: oblique;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+@media only screen and (max-width: 400px){
+	.list a{color: purple}
+
 }
